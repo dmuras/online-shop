@@ -1,0 +1,38 @@
+.navbar-container {
+    display: flex;
+    background-color: rgb(185, 133, 170);
+    height: 10vh;
+}
+
+.navbar-lt {
+    display: flex;
+    width: 15%;
+    margin-left: 25vh;
+    border: 2px solid rgb(56, 13, 56);
+    border-radius: 50px;
+    background-color: rgb(127, 75, 136);
+} h4 {
+    margin-top: 4vh;
+    width: 80%;
+    display: flex;
+    justify-content: right;
+}
+
+.navbar-logo {
+    margin-top: 2vh;
+    margin-left: 0.5vh;
+    width: 40%;
+    display: flex;
+    justify-content: left;
+}
+
+.navbar-menu {
+    width: 60%;
+    display: flex;
+    justify-content: end;
+}
+
+.cart {
+    margin-top: 2.5vh;
+    margin-right: 20vh;
+}
