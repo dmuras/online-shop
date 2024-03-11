@@ -1,38 +1,56 @@
 .navbar-container {
     display: flex;
-    background-color: rgb(185, 133, 170);
-    height: 10vh;
+    background-color: #ACCFCB;
+    height: 15vh;
 }
 
 .navbar-lt {
     display: flex;
     width: 15%;
-    margin-left: 25vh;
-    border: 2px solid rgb(56, 13, 56);
+    border: 2px solid #10383a;
     border-radius: 50px;
-    background-color: rgb(127, 75, 136);
-} h4 {
-    margin-top: 4vh;
-    width: 80%;
+    background-color: #DF8453;
+    margin: 3vh;
+    margin-left: 10vh;
+    
+} h3 {
     display: flex;
+    align-items: center;
     justify-content: right;
+    color: #10383a;
+    width: 70%;
 }
 
 .navbar-logo {
-    margin-top: 2vh;
-    margin-left: 0.5vh;
-    width: 40%;
+    margin-left: 2.5vh;
+    margin-right: 2.5vh;
+    width: 30%;
     display: flex;
-    justify-content: left;
+    justify-content: center;
+    align-items: center;
 }
 
 .navbar-menu {
-    width: 60%;
+    width: 85%;
     display: flex;
-    justify-content: end;
+    justify-content: right;
+    align-items: center;
+}
+
+.link-element {
+    margin: 4vh;
+    color: #10383a;
+    text-decoration: none;
+    opacity: 0.7;
+    &:hover{
+        opacity: 1;
+    }
+    &:active{
+        opacity: 1;
+    }
 }
 
 .cart {
-    margin-top: 2.5vh;
-    margin-right: 20vh;
+    margin-right: 10vh;
+    margin-left: 20vh;
 }
