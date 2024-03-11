@@ -12,6 +12,7 @@ function Navbar() {
             </div>
         </div>
         <div className="navbar-menu">
+            <Link className="link-element" href="/"> <h2> Shop </h2> </Link>
             <Link className="link-element" href="/about_us"> <h2> About our shop </h2></Link>
             <Link className="link-element" href="/contact"> <h2> Contact us </h2></Link>
             <Link className="link-element" href="/register"> <h2> Register </h2> </Link>
