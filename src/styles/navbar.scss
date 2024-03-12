@@ -1,22 +1,20 @@
 .navbar-container {
     display: flex;
-    background-color: #ACCFCB;
+    background-color: #e5ba53;
     height: 15vh;
 }
 
 .navbar-lt {
     display: flex;
     width: 15%;
-    border: 2px solid #10383a;
     border-radius: 50px;
-    background-color: #DF8453;
+    background-color: #663d41;
     margin: 3vh;
     margin-left: 10vh;
     h3 {
         display: flex;
         align-items: center;
         justify-content: right;
-        color: #10383a;
         width: 70%;
     }
 }
@@ -40,11 +38,16 @@
 
 .link-element {
     margin: 4vh;
-    color: #10383a;
+    color: #632B30;
     text-decoration: none;
-    opacity: 0.7;
+    opacity: 0.8;
     &:hover{
         opacity: 1;
+        background-color: #FADF63;
+        height: fit-content;
+        width: fit-content;
+        padding: 10px;
+        border-radius: 40px;
     }
     &:active{
         opacity: 1;

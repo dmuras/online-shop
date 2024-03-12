@@ -1,6 +1,6 @@
 .footer-container {
     height: fit-content;
-    background-color: #ACCFCB;
+    background-color: #e5ba53;
 }
 
 .logos {
@@ -18,6 +18,10 @@
     padding: 1vh;
     text-align: center;
     border-top: dotted #10383a 2px;
+    p {
+        color: #632B30;
+        font-weight: bold;
+    }
 }
 
 .copyright {
