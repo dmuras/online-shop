@@ -48,14 +48,11 @@ export default function Home() {
                   <h3 className='info-element'>Price '$': {item.price}</h3>
                 </div>
                 <div className='shopping-options'>
-                  <button style={{height: "fit-content", width: "fit-content", fontWeight: "bold", fontSize: "large", padding: "2vh", border: "inset black 5px", borderRadius: "20px"}}>Add to cart</button>
+                  <button className='shopping-button' style={{height: "fit-content", width: "fit-content", fontWeight: "bold", fontSize: "large", padding: "2vh", border: "solid black 2px", boxShadow: "5px 5px #black", cursor: "pointer"}}>Add to cart</button>
                 </div>
               </div>
             ))
           }
-        </div>
-        <div className='items-list'>
-          
         </div>
       </div>
       <Footer/>
