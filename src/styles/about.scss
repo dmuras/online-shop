@@ -1,0 +1,22 @@
+.about-container {
+    margin: 0;
+    background-color: #e6e6ae;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.beginnings, .founder, .activity {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.beginnings-text, .founder-text, .activity-text {
+    margin: 50px;
+}

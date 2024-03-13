@@ -33,7 +33,7 @@ export default function Home() {
       <Navbar/>
       <div className='container'>
         <div className='add-item'>
-
+          <h1>ADD PRODUCT</h1>
         </div>
         <div className='items-container'>
           {

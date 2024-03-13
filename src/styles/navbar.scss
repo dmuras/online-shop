@@ -1,3 +1,7 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
 .navbar-container {
     display: flex;
     background-color: #e5ba53;
@@ -40,19 +44,21 @@
     margin: 4vh;
     color: #632B30;
     text-decoration: none;
+    width: fit-content;
+    height: fit-content;
     opacity: 0.8;
     &:hover{
         opacity: 1;
-        background-color: #FADF63;
-        height: fit-content;
-        width: fit-content;
-        padding: 10px;
-        border-radius: 40px;
+        background-color: #632B30;
+        color: white;
+        padding: 20px 0px 20px 0px;
+        border-radius: 10px;
     }
     &:active{
         opacity: 1;
     }
 }
+
 
 .cart {
     margin-right: 10vh;
