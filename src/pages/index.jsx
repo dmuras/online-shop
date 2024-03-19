@@ -25,6 +25,13 @@ const itemsList = [
   }
 ]
 
+export const addedItems = []
+
+function addItem(Item) {
+  addedItems.push(Item)
+  console.log(addedItems)
+}
+
 
 export default function Home() {
   return (
@@ -48,7 +55,7 @@ export default function Home() {
                   <h3 className='info-element'>Price '$': {item.price}</h3>
                 </div>
                 <div className='shopping-options'>
-                  <button className='shopping-button' style={{height: "fit-content", width: "fit-content", fontWeight: "bold", fontSize: "large", padding: "2vh", border: "solid black 2px", boxShadow: "5px 5px #black", cursor: "pointer"}}>Add to cart</button>
+                  <button className='shopping-button' id={`${item.id}`} onClick={(e)=>addItem(item)} style={{height: "fit-content", width: "fit-content", fontWeight: "bold", fontSize: "large", padding: "2vh", border: "solid black 2px", boxShadow: "5px 5px #black", cursor: "pointer"}}>Add to cart</button>
                 </div>
               </div>
             ))
