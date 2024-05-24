@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './components/navbar'
 import Footer from './components/footer'
 import {addedItems} from './index.jsx'
+import Image from 'next/image'
 
 function Cart() {
   return (
@@ -12,11 +13,15 @@ function Cart() {
         <div className="cart-items">
           {
             addedItems.map((aItem) => (
-              <div className="cartItem" id={aItem.id}>
-                <h1>{aItem.id}</h1>
-                <h1>{aItem.name}</h1>
-                <h1>{aItem.description}</h1>
-                <h1>{aItem.price}</h1>
+              <div id={aItem.id} className='aitem-container'>
+              <div className='aitem-photo'>
+                <Image src={`/${aItem.name}.png`} height={100} width={100}/>
+              </div>
+              <div className='aitem-info'>
+                <h2 className='ainfo-element'>Title: {aItem.name}</h2>
+                <h3 className='ainfo-element'>Describtion: {aItem.description}</h3>
+                <h3 className='ainfo-element'>Price '$': {aItem.price}</h3>
+              </div>
               </div>
             ))
           }
